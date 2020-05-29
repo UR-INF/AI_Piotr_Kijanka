@@ -48,12 +48,11 @@ CREATE TABLE `room` (
 
 
 INSERT INTO `room` (`room_id`, `room_type`, `price`, `photo`) VALUES
-(1, 'Standard', '2000', '1.jpg'),
-(2, 'Superior', '2400', '3.jpg'),
-(3, 'Super Deluxe', '2800', '4.jpg'),
-(4, 'Jr. Suite', '3800', '5.jpg'),
-(5, 'Executive Suite', '4000', '6.jpg');
-
+(1, 'Standardowy', '2000', '1.jpg'),
+(2, 'Wyższy standard', '2400', '3.jpg'),
+(3, 'Super standard', '2800', '4.jpg'),
+(4, 'Ekstra standard', '3800', '5.jpg'),
+(5, 'Standard ekskluzywny', '4000', '6.jpg');
 
 
 CREATE TABLE `transaction` (
